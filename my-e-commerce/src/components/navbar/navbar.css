@@ -1,0 +1,118 @@
+.nav-logo img{
+    height:8vh;
+    width:8vh;
+    border:1px solid black;
+    border-radius:20%;
+    
+    margin-right: 40px;
+
+}
+
+.nav-logo p{
+    color:black ;
+    font-size:1.5rem;
+    font-weight:700;
+    margin-left:30px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;  
+    background-color: rgb(87, 83, 83);
+    cursor: pointer;
+
+}
+.nav-logo{
+    display:flex;
+    align-items:center;
+}
+.nav-menu{
+    display:flex;
+    gap:2rem;   
+    align-items: center;
+    list-style-type:none;
+    
+    color:#0f0f10;
+    font-weight:700;
+}
+
+.nav-menu li::after{
+    color:rgb(234, 7, 7);
+    
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    justify-content: center;
+
+}
+.nav-menu hr{
+    border:none;
+    width:80%;
+    height:1px;
+    border-radius: 10px;
+    background: rgb(247, 0, 0);
+}
+.nav-login-cart{
+    display:flex;
+    gap:.5rem;
+    align-items:center; 
+}
+.nav-login-cart img{
+    height:40px;
+    width:40px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-right:25px;
+}
+.nav-login-cart button{
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 75px;
+    width:110px;
+    height:25px;
+
+    margin-left:-130px;
+    outline:none;
+    margin-top:-40px;
+    font-size:15px;
+    font-weight:700;
+    background: white;
+    opacity: 0.8;
+}
+.nav-login-cart button:active{
+    background: #373636;
+    opacity: 1;
+    color:rgb(224, 22, 22);
+}
+.nav-cart-count{
+    width:22px;
+    height:22px;
+    background-color: #f0f0f0;
+    justify-content:center;
+    align-items:center;
+    margin-left:-40px;
+    margin-top:-35px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color:white;
+}
+.shopon{
+    background:linear-gradient(to right,rgb(13, 13, 14),rgb(224, 17, 17),rgb(8, 8, 8),rgb(234, 7, 7));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+    margin-left:-20px;
+    
+}
+@keyframes animate-gradient {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 200%;
+    }}

@@ -1,0 +1,42 @@
+#offers{
+    margin-top: 150px;
+    width:98%;
+    height:90vh;
+    display:flex;
+   
+    padding:0px 140px;
+    margin-bottom:100px;
+    background:linear-gradient(180deg,#e9a1ee 0%,#dad7d722 60%);
+}
+.offers-left{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}.offers-left h1{
+    font-size: 60px;
+    color: #171717;
+    font-weight: 600;
+}
+.offers-left p{
+    font-size: 22px;
+    color: #171717;
+    font-weight: 600;
+}
+.offers-left button{
+    border:2px solid black;
+    margin-left: 20px;
+    border-radius:20px 3px 20px 3px;
+    padding: 10px;
+    width:300px;
+    font-weight: 700;
+   background-color: rgb(200, 7, 7);
+   cursor: pointer;
+}
+.offers-right{
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:50px;
+}
